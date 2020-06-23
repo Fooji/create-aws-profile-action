@@ -1,0 +1,22 @@
+{
+  "name": "create-aws-profile-action",
+  "version": "0.0.1",
+  "description": "A GitHub action to setup an AWS profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fooji/create-aws-profile-action.git"
+  },
+  "author": "William Coates",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fooji/create-aws-profile-action/issues"
+  },
+  "homepage": "https://github.com/Fooji/create-aws-profile-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4"
+  }
+}
