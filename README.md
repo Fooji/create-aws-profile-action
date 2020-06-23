@@ -22,9 +22,11 @@ A GitHub action to setup an AWS profile on the file system.
 
 ## Example usage
 
+```
 uses: Fooji/create-aws-profile-action@v0.0.1
 with:
   profile: staging
   region: us-west-1
   key: xxx
   secret: xxx
+```
