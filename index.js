@@ -14,10 +14,10 @@ try {
     fs.mkdirSync(awsDir)
   }
   fs.appendFileSync(credentials, `[${profile}]\n`)
-  fs.appendFileSync(credentials, `aws_access_key_id=${key}\n`)
-  fs.appendFileSync(credentials, `aws_secret_access_key=${secret}\n`)
+  fs.appendFileSync(credentials, `aws_access_key_id = ${key}\n`)
+  fs.appendFileSync(credentials, `aws_secret_access_key = ${secret}\n`)
   fs.appendFileSync(config, `[profile ${profile}]\n`)
-  fs.appendFileSync(config, `region=${region}\n`)
+  fs.appendFileSync(config, `region = ${region}\n`)
 } catch (error) {
   core.setFailed(error.message);
 }
