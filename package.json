@@ -1,6 +1,6 @@
 {
   "name": "create-aws-profile-action",
-  "version": "1",
+  "version": "2",
   "description": "A GitHub action to setup an AWS profile",
   "main": "index.js",
   "scripts": {
