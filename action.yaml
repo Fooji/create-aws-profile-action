@@ -7,6 +7,9 @@ inputs:
   secret:
     description: The AWS_SECRET_ACCESS_KEY
     required: true
+  sessionToken:
+    description: The AWS_SESSION_TOKEN
+    required: false
   profile:
     description: The profile name you want to setup
     required: true
