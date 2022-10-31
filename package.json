@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Fooji/create-aws-profile-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.4"
+    "@actions/core": "^1.10.0"
   }
 }
