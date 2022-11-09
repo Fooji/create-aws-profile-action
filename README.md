@@ -22,7 +22,7 @@ A GitHub action to setup an AWS profile on the file system.
 
 ### `aws_config_dir`
 
-**Optional** The diretory/folder where the AWS files will be saved
+**Optional** The directory/folder where the AWS files will be saved
 
 ## Example usage
 
