@@ -20,6 +20,10 @@ A GitHub action to setup an AWS profile on the file system.
 
 **Required** The name of the profile you want to create
 
+### `aws_config_dir`
+
+**Optional** The diretory/folder where the AWS files will be saved
+
 ## Example usage
 
 ```
@@ -29,4 +33,5 @@ with:
   region: us-west-1
   key: xxx
   secret: xxx
+  aws_config_dir: /path/to/my/.aws
 ```
