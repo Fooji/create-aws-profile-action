@@ -13,6 +13,9 @@ inputs:
   profile:
     description: The profile name you want to setup
     required: true
+  aws_config_dir:
+    description: The directory/folder where the AWS files will be saved
+    required: false
   region:
     description: The AWS region you want to use
     required: true
