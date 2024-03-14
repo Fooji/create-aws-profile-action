@@ -20,6 +20,10 @@ A GitHub action to setup an AWS profile on the file system.
 
 **Required** The name of the profile you want to create
 
+### `sessionToken`
+
+**Not required** The AWS session token
+
 ## Example usage
 
 ```
@@ -29,4 +33,5 @@ with:
   region: us-west-1
   key: xxx
   secret: xxx
+  sessionToken: xxx
 ```
